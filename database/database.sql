@@ -8,5 +8,5 @@ CREATE TABLE users(
 
 INSERT INTO users (name, email)
     VALUES ('nacho', 'nacho@gmail.com'),
-           ('paulita', 'paulita@gmail.com'),
+           ('nachotta', 'nachotta@gmail.com'),
            ('esmeralda', 'esmeralda@gmail.com');

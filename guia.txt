@@ -5,3 +5,7 @@
 5: npm i @types/express -D
 6: npm i nodemon -D
 7: npm i @types/pg -D
+
+
+
+https://www.youtube.com/watch?v=z4BNZfZ1Wq8&list=PLo5lAe9kQrwo-ILxlSGaFhF768hhPbrFB&index=8
