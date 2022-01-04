@@ -1,17 +1,16 @@
 ﻿# Nodejs-Typescript---PostgreSQL---CRUD
 
-Recuerde ejecutar
-
+Recuerde ejecutar:
 ```
 npm install
 ```
 
-console 1: 
+run 1:
 ```
-nodemon dist/index.js
+npm run build
 ```
 
-console 2:
+run 2:
 ```
-tsc --watch
+npm run dev
 ```
