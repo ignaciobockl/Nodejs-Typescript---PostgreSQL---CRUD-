@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const indexController_1 = require("../controllers/indexController");
+const router = (0, express_1.Router)();
+// router.get('/test', (req, res) => res.send('Ciudadela es una fiesta...'));
+router.get('/users', indexController_1.getUsers);
+router.get('/user/:id', indexController_1.getUserById);
+router.post('/user', indexController_1.createUser);
+router.put('/user/:id', indexController_1.updateUser);
+router.delete('/user/:id', indexController_1.deleteUserPhysical);
+// router.delete('/userl/:id', deleteUserLogical);
+exports.default = router;

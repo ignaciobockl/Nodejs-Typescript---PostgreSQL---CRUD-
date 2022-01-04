@@ -1,0 +1,7 @@
+1: npm init -y
+2: npm i typescript -D
+3: tsc --init
+4: npm i express pg
+5: npm i @types/express -D
+6: npm i nodemon -D
+7: npm i @types/pg -D

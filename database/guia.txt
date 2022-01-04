@@ -1,0 +1,7 @@
+\l :listar todas las bases de datos creadas
+
+\c fistapi :seleccionar la base de datos a utilizar
+
+\dt :listar todas las tablas
+
+\d users :seleccionar la tabla
